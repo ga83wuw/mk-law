@@ -8,7 +8,7 @@ const Home = () =>
     return(
         <div className="home-container">
             <h1>{t("homeTitle")}</h1>
-            <h1>{t("homeSubTitle")}</h1>
+            <h2>{t("homeSubTitle")}</h2>
             <h3>{t("homeChap1")}</h3>
         <div className="home-details">
             {/* <p><strong>{t("legalNoticeTitle")}</strong></p> */}
