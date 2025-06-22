@@ -20,6 +20,14 @@
     ;
 }
 
+.home-container h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #5a4a4a; /* Slightly darker for better contrast */
+    font-weight: 600;
+    ;
+}
+
 /* Equal spacing for each detail */
 .home-details {
     display: flex;
