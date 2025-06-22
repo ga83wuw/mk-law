@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.partners-container {
+    max-width: 600px; 
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 12px;
+    background: rgba(236, 234, 234, 0.8); 
+    color: #3f1d23;
+    font-family: "Ubuntu", sans-serif;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.partners-container h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #5a4a4a;
+    font-weight: 600;
+}
+
+/* Partner details */
+.partners-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Styling for strong (partners' names) */
+.partners-details p strong {
+    font-size: 20px; /* Make strong text more prominent */
+    font-weight: bold;
+    display: block; /* Ensures each name is on a new line */
+    margin-top: 15px; /* Spacing above each name */
+    margin-bottom: 5px; /* Reduce space below */
+    color: #3f1d23;
+}
+
+/* General paragraph styling */
+.partners-details p {
+    font-size: 14px;
+    line-height: 1.4; /* Adjust line height for tighter spacing */
+    color: #333;
+    margin-bottom: 8px; /* Reduce space between paragraphs */
+}
+
+/* Add a line separator between the two sections */
+.partners-details div {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(63, 29, 35, 0.2);
+}
