@@ -17,6 +17,7 @@ const Partners = () => {
                 <p>{t("partnersBio1.4")}</p>
                 <p>{t("partnersBio1.5")}</p>
                 <p>{t("partnersBio1.6")}</p>
+                <p>{t("partnersBio1.7")}</p>
             </div>
             <div>
                 {/* Second Partner */}
