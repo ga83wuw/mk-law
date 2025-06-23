@@ -27,6 +27,12 @@
     gap: 1px; /* Increased spacing */
     text-align: justify;
     padding: 10px;
+    background-color: #f9f5f2;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 40px auto; /* 40px top/bottom, centered horizontally */
+    padding: 20px 30px; /* Inside spacing: 20px top/bottom, 30px sides */
+    max-width: 800px; 
 }
 
 /* Title of each expertise area */

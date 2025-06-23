@@ -7,8 +7,14 @@ const Press = () =>
 
     return(
         <div className="press-container">
-            <div className="press-details"></div>
             <h1>{t("pressTitle")}</h1>
+            <div className="press-details">
+                <p><strong>{t("pressReleaseTitle23062025")}</strong></p>
+                <p>{t("pressRelease23062025_Text1")}</p>
+                <p>{t("pressRelease23062025_Text2")}</p>
+                <p>{t("pressRelease23062025_Text3")}</p>
+                <p>{t("pressRelease23062025_Text4")}</p>
+            </div>
             <div className="press-details">
                 <p><strong>{t("pressReleaseTitle01042025")}</strong></p>
                 <p>{t("pressRelease01042025_Text1")}</p>
